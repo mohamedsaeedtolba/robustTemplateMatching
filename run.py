@@ -76,4 +76,5 @@ if __name__ == '__main__':
         
     if cv2.imwrite("result.png", d_img[..., ::-1]):
         print("result.png was generated")
+        cv2.imshow("result.png")
     
